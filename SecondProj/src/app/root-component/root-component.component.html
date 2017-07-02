@@ -1,0 +1,9 @@
+<div class="form-group">
+	<label for="firstName" class="sr-only form-control">FirstName</label>
+	<input type="text" class="form-control" name="firstName" id="firstName" #firstName><br>
+
+	<label for="lastName" class="sr-only form-control">LastName</label>
+	<input type="text" class="form-control" name="lastName" id="lastName" #lastName><br>
+
+	<button type="submit" class="btn" (click)="addName(firstName,lastName)">Save</button>
+</div>
